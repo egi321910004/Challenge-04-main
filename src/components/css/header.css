@@ -1,0 +1,49 @@
+.link {
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #000;
+}
+
+.button {
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    color: #fff;
+    border-radius: 2px;
+    margin-left: 10px;
+}
+
+.title {
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 150%;
+    color: #000;
+    top: 177px;
+    position: absolute;
+}
+
+.text {
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+    color: #000;
+    margin-top: 10px;
+    position: absolute;
+    top: 301px;
+}
+
+.img {
+    position: absolute;
+    top: 97px;
+    left: 600px;
+    
+}

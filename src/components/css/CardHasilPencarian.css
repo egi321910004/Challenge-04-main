@@ -1,0 +1,74 @@
+h1 {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.hasilPencarian {
+  width: 1047px;
+  height: 142px;
+  margin: 0;
+  padding: 24px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
+  border-radius: 8px;
+}
+
+.hasilPencarian .frameCari {
+  position: absolute;
+  display: flex;
+  width: 1009.25px;
+  height: 58px;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 18px;
+}
+
+.hasilPencarian .frameCari .frameInput {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  width: 221px;
+  margin-left: 16px;
+}
+
+.hasilPencarian .frameCari .frameInput:first-child {
+  margin: 0;
+}
+
+.hasilPencarian .frameCari .frameInput label {
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+  margin-bottom: 4px;
+}
+
+.hasilPencarian .frameCari .frameInput .inputStyle {
+  width: 221px;
+  height: 36px;
+  left: 0px;
+  top: 22px;
+  background-color: #fff;
+  padding-left: 12px;
+  border: 1px solid #d0d0d0;
+  box-sizing: border-box;
+  border-radius: 2px;
+  color: #8a8a8a;
+}
+
+.hasilPencarian .frameCari .frameInput .button-edit {
+  width: 51px;
+  height: 36px;
+  margin-top: 22px;
+  border-radius: 2px;
+  border: 1px solid #0D28A6;
+  background-color: #FFF;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  color: #0D28A6;
+}

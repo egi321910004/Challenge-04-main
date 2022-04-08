@@ -1,0 +1,104 @@
+.listCar {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  position: absolute;
+  width: 1047px;
+  height: 514px;
+  margin-top: 377px;
+}
+
+.listCar .cardMobil {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 24px;
+  padding: 24px;
+  width: 333px;
+  height: 514px;
+  left: 0px;
+  top: 0px;
+  background: #ffffff;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 8px;
+}
+
+.listCar .cardMobil:first-child {
+  margin-left: -2px;
+}
+
+.listCar .cardMobil .frameCard {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  width: 285px;
+  height: 466px;
+  left: 24px;
+  top: 24px;
+}
+
+.listCar .cardMobil .frameCard img {
+  width: 270px;
+  height: 160px;
+}
+
+.listCar .cardMobil .frameCard .textCard {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  width: 285px;
+  height: 120px;
+  left: 0px;
+  top: 238px;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.listCar .cardMobil .frameCard .textCard h1 {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.listCar .cardMobil .frameCard .iconCard {
+  display: inline-flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  width: 285px;
+  height: 20px;
+  margin-top: 16px;
+}
+
+.listCar .cardMobil .frameCard .iconCard img {
+  width: 20px;
+  height: 20px;
+}
+
+.listCar .cardMobil .frameCard .iconCard p {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 20px;
+  margin-bottom: 0;
+  margin-left: 8.83px;
+}
+
+.listCar .cardMobil .frameCard .buttonCard {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 285px;
+  height: 48px;
+  background: #5cb85f;
+  border-radius: 2px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  color: #fff;
+  margin-top: 24px;
+}

@@ -1,0 +1,156 @@
+.detailCar {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: flex-start;
+  padding: 0px;
+  position: absolute;
+  width: 1047px;
+  height: 514px;
+  margin-top: 377px;
+}
+
+.detailCar .cardDetail {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 605px;
+  height: 618px;
+  padding: 24px;
+  background: #ffffff;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 8px;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.detailCar .cardDetail:last-child {
+  width: 405px;
+  height: 435px;
+  line-height: 20px;
+}
+
+.detailCar .cardDetail p {
+  margin-bottom: 8px;
+}
+
+.detailCar .cardDetail h1 {
+  margin-bottom: 16px;
+}
+
+.detailCar .cardDetail .textDetail1 {
+  color: #8a8a8a;
+  line-height: 175%;
+  width: 557px;
+  height: 100px;
+  margin-bottom: 16px;
+}
+
+.detailCar .cardDetail .textDetail1 p {
+  margin-bottom: 5px;
+}
+
+.detailCar .cardDetail .textDetail2 {
+  color: #8a8a8a;
+  line-height: 175%;
+  width: 557px;
+  height: 75px;
+  margin-bottom: 26px;
+}
+
+.detailCar .cardDetail .textDetail2 p {
+  margin-bottom: 5px;
+}
+
+.detailCar .cardDetail .textDetail3 {
+  color: #8a8a8a;
+  line-height: 175%;
+  width: 557px;
+  height: 225px;
+}
+
+.detailCar .cardDetail .textDetail3 p {
+  margin-bottom: 5px;
+}
+
+.detailCar .cardDetail .cardImage {
+  height: 216px;
+  padding: 4px 44px;
+}
+
+.detailCar .cardDetail .cardImage img {
+  width: 270px;
+  height: 160px;
+}
+
+.detailCar .cardDetail .cardTitle .cardIcon {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  width: 200px;
+  height: 14px;
+}
+
+.detailCar .cardDetail .cardTitle {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.detailCar .cardDetail .cardTitle h1 {
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.detailCar .cardDetail .cardTitle .cardIcon img {
+  width: 12px;
+  height: 12px;
+  margin-right: 4px;
+}
+
+.detailCar .cardDetail .cardTitle .cardIcon .iconTitle {
+  display: inline-flex;
+  align-items: center;
+  margin-right: 8px;
+}
+
+.detailCar .cardDetail .cardTitle .cardIcon .iconTitle p {
+  font-weight: 300;
+  font-size: 10px;
+  line-height: 14px;
+  color: #8a8a8a;
+  margin-bottom: 0;
+}
+
+.detailCar .cardDetail .cardTitle .cardText {
+  display: inline-flex;
+  margin-top: 49px;
+  margin-bottom: 16px;
+}
+
+.detailCar .cardDetail .cardTitle .cardText h1 {
+  margin-left: 250px;
+}
+
+.buttonCard {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 358px;
+  height: 36px;
+  border: none;
+  background: #5cb85f;
+  border-radius: 2px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  color: #fff;
+}
+
+.buttonPosition {
+    margin-top: 780px;
+}
+

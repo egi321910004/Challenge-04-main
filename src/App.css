@@ -1,0 +1,319 @@
+body {
+	font-family: Helvetica;
+}
+
+p, .nav-link {
+	font-size: 14px;
+	line-height: 20px;
+}
+
+h1 {
+	font-size: 36px;
+	line-height: 54px;
+	font-weight: 700;
+}
+
+h2 {
+	font-size: 24px;
+	line-height: 36px;
+	font-weight: 700;
+}
+
+h3 {
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 24px;
+}
+
+/* Header */
+header {
+	background-color: #F1F3FF;
+	width: 100%;
+	height: 500px;
+}
+
+header .img-hero {
+	width: 662px;
+	height: 403px;
+}
+
+header .hero {
+	padding-top: 13px;
+}
+
+header .hero h1 {
+	font-size: 36px;
+	line-height: 54px;
+	font-weight: 700;
+}
+
+header .hero p {
+	width: 75%;
+	font-weight: 300;
+	padding-top: 8px;
+}
+
+header .hero .btn-hero {
+	padding: 8px 12px;
+	border-radius: 2px;
+	background-color: #5CB85F;
+	color: #FFF;
+	border: none;
+	font-weight: 700;
+}
+
+header nav {
+	background-color: #F1F3FF;
+}
+
+header nav .logo {
+	width: 100px;
+	height: 34px;
+	background-color: #0D28A6;
+}
+
+header .padding-nav {
+	padding: 1.5rem 0;
+}
+
+header .navbar-nav .nav-item:not(:last-child) .nav-link {
+	margin-right: 32px;
+	color: #000;
+}
+
+header .navbar-nav .nav-item:last-child .nav-link {
+	background-color: #5CB85F;
+	border-radius: 2px;
+	color: #FFF;
+	padding: 8px 12px;
+	font-weight: 700;
+}
+/* End Header */
+
+/* Our Services */
+#our-services {
+	width: 1027px;
+	height: 428px;
+	margin: auto;
+	margin-top: 100px;
+}
+
+#our-services p {
+	margin-top: 24px;
+}
+
+#our-services .services-ul {
+	width: 295px;
+	height: 184px;
+	margin-top: 16px;
+}
+
+#our-services .services-ul .li-services {
+	margin-bottom: 18px;
+	padding: 0;
+	border: none;
+}
+
+#our-services .services-ul .li-services span {
+	margin-left: 16px;
+	font-size: 14px;
+}
+/* End Our Services */
+
+/* Why Us */
+#why-us {
+	width: 1168px;
+	height: 308px;
+	margin: auto;
+	margin-top: 100px;
+}
+
+#why-us p {
+	margin-top: 16px;
+}
+
+#why-us .item-list {
+	display: flex;
+	flex-direction: row;
+	margin-top: 40px;
+}
+
+#why-us .item-list .card:not(:last-child) {
+	width: 18rem;
+	height: 196px;
+	margin-right: 32px;
+	border-radius: 8px;
+}
+
+#why-us .item-list .card:last-child {
+	width: 18rem;
+	height: 196px;
+	border-radius: 8px;
+}
+
+#why-us .item-list .card-body {
+	margin-left: 12px;
+}
+
+#why-us .item-list .h3-card {
+	margin-top: 16px;
+}
+
+#why-us .item-list .card-text {
+	margin-top: 16px;
+}
+/* End Why Us */
+
+/* Testimonial */
+#testimonial {
+	height: 438px;
+	margin: auto;
+	margin-top: 100px;
+}
+
+#testimonial p .main-text {
+	margin-top: 16px;
+}
+
+#testimonial .testi-list {
+	width: 100%;
+	height: 270px;
+	margin-top: 40px;
+}
+
+#testimonial .testi-list .carousel-inner {
+	height: 330px;
+}
+
+#testimonial .testi-list .testi {
+	width: 619px;
+	height: 270px;
+	background-color: #F1F3FF;
+	box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
+	border: none;
+	border-radius: 8px;
+	margin-top: 140px;
+	margin-right: 16px;
+	margin-left: 16px;
+}
+
+#testimonial .testi-list .testi .card-content {
+	padding: 69px 32px;
+}
+
+#testimonial .testi-list .testi .card-content .img-car {
+	padding-top: 25px;
+	padding-left: 25px;
+}
+
+#testimonial .testi-list .testi-button {
+	width: 88px;
+}
+
+/* End Testimonial */
+
+/* Cta Banner */
+.cta-banner {
+	width: 1168px;
+	height: 326px;
+	margin: auto;
+	margin-top: 100px;
+	border-radius: 13px;
+	background-color: #0D28A6;
+}
+
+.cta-banner .cta-text {
+	text-align: center;
+	color: #FFF;
+}
+
+.cta-banner .cta-text h1 {
+	padding-top: 64px;
+	font-size: 36px;
+	line-height: 54px;
+	font-weight: 700;
+}
+
+.cta-banner .cta-text p {
+	padding-top: 16px;
+}
+
+.cta-banner .btn-cta {
+	padding: 8px 12px;
+	border-radius: 2px;
+	background-color: #5CB85F;
+	border: none;
+	font-weight: 700;
+	align-content: center;
+	margin-top: 40px;
+}
+/* End Cta Banner */
+
+/* Faq */
+#faq {
+	width: 1168px;
+	height: 344px;
+	margin: auto;
+	margin-top: 100px;
+	display: flex;
+	flex-direction: row;
+}
+
+#faq .faq-row:last-child {
+	margin-left: 132px;
+}
+
+#faq .faq-row:not(:last-child) {
+	width: 368px;
+}
+
+#faq .faq-row:not(:last-child) p {
+	margin-top: 16px;
+}
+
+#faq .faq-row .faq-ul {
+	width: 668px;
+}
+
+#faq .faq-row .faq-ul .li-faq {
+	font-size: 14px;
+	padding: 18px 24px;
+	margin-bottom: 16px;
+	border-radius: 4px;
+	border: 1px solid #D4D4D4;
+}
+
+#faq .faq-row .faq-ul .li-faq:last-child {
+	margin-bottom: 0;
+}
+/* End Faq */
+
+/* Footer */
+footer {
+	margin: auto;
+	margin-top: 150px;
+	margin-bottom: 100px;
+	width: 1141px;
+	height: 128px;
+	display: flex;
+	flex-direction: row;
+}
+
+footer .foot-content {
+	margin-left: 86px;
+}
+
+footer .sosmed-list {
+	display: inline-flex;
+}
+
+footer .sosmed-list img {
+	margin-right: 16px;
+}
+
+footer .logo {
+	width: 100px;
+	height: 34px;
+	background-color: #0D28A6;
+}
+/* End Footer */
